@@ -460,7 +460,7 @@ class GigyaAction {
 
 					/*set the login coockie except while there is logout action*/
 					if ( empty( $data ) or $data['action'] !== 'gigya_logout' ) {
-						do_action( 'set_logged_in_cookie', null, $expiration );
+						do_action( 'set_logged_in_cookie', null, $expiration, $expiration, $wp_user->ID );
 					}
 
 				}
