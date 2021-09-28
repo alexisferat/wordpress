@@ -20,7 +20,7 @@ class GigyaAction {
 	protected $login_options;
 	protected $global_options;
 	protected $session_options;
-	protected GigyaLogger $logger;
+	protected $logger;
 
 	/**
 	 * Constructor.
